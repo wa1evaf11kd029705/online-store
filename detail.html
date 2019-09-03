@@ -1,0 +1,372 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Online Store</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- style css -->
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- slick slide -->
+    <link rel="stylesheet" href="./slick-1.8.1/slick/slick.css">
+    <link rel="stylesheet" href="./slick-1.8.1/slick/slick-theme.css">
+    <!-- boostrap touchSpin -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-touchspin/4.2.5/jquery.bootstrap-touchspin.min.css">
+    <!-- Bootstrap CSS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <style>
+
+    </style>
+</head>
+
+<body>
+    <!-- header -->
+    <header>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 col-sm-12 col-12">
+                        <div class="btn-group">
+                            <button type="button" class="btn border dropdown-toggle my-md-4 my-2" data-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false">
+                                USD
+                            </button>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#">VN-VND</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-12 text-center">
+                        <h2 class="my-md-3 site-title">Online Store</h2>
+                    </div>
+                    <div class="col-md-4 col-12 text-right">
+                        <p class="my-md-4 header-links">
+                            <a href="#" class="px-2" data-toggle="modal" data-target="#exampleModalScrollable"><i
+                                    class="fas fa-sign-in-alt pr-2"></i>Sign In</a>
+                            <a href="#" class="px-1" data-toggle="modal" data-target="#exampleModalScrollable2">Create an
+                                Account</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid p-0 " id="header01">
+                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse"
+                        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+    
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mr-auto">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="products.html">products</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="products.html" id="navbarDropdown" role="button"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    collection
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="#">Action</a>
+                                    <a class="dropdown-item" href="#">Another action</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="#">Something else here</a>
+                                </div>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="detail.html">detail</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="about.html">about us</a>
+                            </li>
+                        </ul>
+                        <form class="form-inline my-2 my-lg-0">
+                            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-outline-success my-2 my-sm-0" type="submit"><i
+                                    class="fas fa-search"></i></button>
+                        </form>
+                    </div>
+                    <div class="navbar-nav">
+                        <li class="nav-item border shoping-icon mx-2">
+                            <a href="#"><i class="fa fa-shopping-basket p-2"></i></a>
+                        </li>
+                </nav>
+            </div>
+        </header>
+    <!-- header -->
+    <!-- breadcrumb -->
+    <section class="Breadcrum my-md-4">
+        <div class="container-fluid">
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                    <li class="breadcrumb-item"><a href="products.html">Product</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">Detail</li>
+                </ol>
+            </nav>
+        </div>
+    </section>
+    <!-- breadcrumb -->
+    <!-- main -->
+    <main>
+        <div class="detail-wrap">
+            <div class="container">
+                <div class="col-md-5 detail-img">
+                    <img src="./img/1.jpg" alt="">
+                </div>
+                <div class="col-md-7 content">
+                    <h2><small>Name Product: </small>Sofa Cafe</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis non unde sed repellat odio
+                        fuga iure beatae laboriosam modi, alias quae consectetur optio? Vero fugit maiores possimus
+                        dolor tempora voluptatem?</p>
+                    <form class="form-horizontal" role="form">
+                        <div class="form-group">
+                            <label for="touchspin" class="col-md-2 control-label">Amount:</label><input id="touchspin"
+                                type="text" name="touchspin" class="col-md-1 form-control" style="text-align: center">
+                        </div>
+                    </form>
+                    <span><small>Price: </small>$198.678</span>
+                    <a href="#"><i class="fas fa-cart-plus"></i>Card</a>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <!-- section 2 -->
+        <section class="section2-slide-product">
+            <div class="container">
+                <div class="row slide-one">
+                    <div class="col-md-2 produc-item">
+                        <div class="img">
+                            <a href="detail.html"> <img src="./img/1.jpg" alt=""></a>
+                        </div>
+                        <div class="text">
+                            <h6><i class="fas fa-couch pr-2"></i>sofa cafe</h6>
+                        </div>
+                    </div>
+                    <div class="col-md-2 produc-item">
+                        <div class="img">
+                            <img src="./img/2.jpg" alt="">
+                        </div>
+                        <div class="text">
+                            <h6><i class="fas fa-couch pr-2"></i>sofa home</h6>
+                        </div>
+                    </div>
+
+                    <div class="col-md-2 produc-item">
+                        <div class="img">
+                            <img src="./img/3.jpg" alt="">
+                        </div>
+                        <div class="text">
+                            <h6><i class="fas fa-couch pr-2"></i>sofa karea</h6>
+                        </div>
+                    </div>
+                    <div class="col-md-2 produc-item">
+                        <div class="img">
+                            <img src="./img/10.jpg" alt="">
+                        </div>
+                        <div class="text">
+                            <h6><i class="fas fa-couch pr-2"></i>sofa japan</h6>
+                        </div>
+                    </div>
+                    <div class="col-md-2 produc-item">
+                        <div class="img">
+                            <img src="./img/9.jpg" alt="">
+                        </div>
+                        <div class="text">
+                            <h6><i class="fas fa-couch pr-2"></i>sofa vietnam</h6>
+                        </div>
+                    </div>
+                    <div class="col-md-2 produc-item">
+                        <div class="img">
+                            <img src="./img/8.jpg" alt="">
+                        </div>
+                        <div class="text">
+                            <h6><i class="fas fa-couch pr-2"></i>sofa usa</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="slide-btn">
+                <span class="prev position-top">
+                    <i class="fa fa-chevron-left" aria-hidden="true"></i>
+                </span>
+                <span class="next position-top">
+                    <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                </span>
+            </div>
+        </section>
+        <!-- section 2 -->
+    </main>
+    <!-- main -->
+    <!-- footer -->
+    <footer>
+        <div class="container">
+            <div class="icon">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-google-plus-g"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-android"></i></a>
+            </div>
+            <h6>Copyright <i class="fa fa-copyright" aria-hidden="true"></i> 2019 startuprr, All Rights Reserved</h6>
+        </div>
+    </footer>
+    <!-- footer -->
+
+    <!-- Optional JavaScript -->
+    <!-- input touschSpin -->
+    <script>
+        $(document).ready(function () {
+            $("input[name='touchspin']").TouchSpin({
+                min: 0,
+                max: 1000,
+                step: 1,
+                maxboostedstep: 10000000,
+                prefix: '$',
+                buttondown_class: "btn btn-link",
+                buttonup_class: "btn btn-link",
+                initval: 0,
+            });
+        });
+    </script>
+    <!-- input touschSpin -->
+    <!-- Modal logn in-->
+    <div class="modal fade" id="exampleModalScrollable" tabindex="-1" role="dialog"
+        aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-scrollable" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalScrollableTitle"
+                        style="letter-spacing: 3px; color: #00a99d; ">SIGN IN</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form action="/action_page.php" class="needs-validation" novalidate>
+                        <div class="form-group">
+                            <label for="uname" style="font-family: serif">Username:</label>
+                            <input type="text" class="form-control" id="uname" placeholder="Enter username" name="uname"
+                                required>
+                            <div class="valid-feedback">Valid.</div>
+                            <div class="invalid-feedback">Please fill out this field.</div>
+                        </div>
+                        <div class="form-group">
+                            <label for="pwd" style="font-family: serif">Password:</label>
+                            <input type="password" class="form-control" id="pwd" placeholder="Enter password"
+                                name="pswd" required>
+                            <div class="valid-feedback">Valid.</div>
+                            <div class="invalid-feedback">Please fill out this field.</div>
+                        </div>
+                        <button type="submit" class="btn btn-primary" style="background-color:#00a99d;">Sign In</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal creater in account-->
+    <div class="modal fade" id="exampleModalScrollable2" tabindex="-1" role="dialog"
+        aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-scrollable" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalScrollableTitle"
+                        style="letter-spacing: 3px; color: #00a99d; ">CREATE AN ACCOUNT</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form action="/action_page.php" class="needs-validation" novalidate>
+                        <div class="form-group">
+                            <label for="Fullname" style="font-family: serif">full name:</label>
+                            <input type="text" class="form-control" id="uname" placeholder="Enter full name"
+                                name="fullname" required>
+                            <div class="valid-feedback">Valid.</div>
+                            <div class="invalid-feedback">Please fill out this field.</div>
+                        </div>
+                        <div class="form-group">
+                            <label for="uname" style="font-family: serif">Username:</label>
+                            <input type="text" class="form-control" id="uname" placeholder="Enter username" name="uname"
+                                required>
+                            <div class="valid-feedback">Valid.</div>
+                            <div class="invalid-feedback">Please fill out this field.</div>
+                        </div>
+                        <div class="form-group">
+                            <label for="pwd" style="font-family: serif">Password:</label>
+                            <input type="password" class="form-control" id="pwd" placeholder="Enter password"
+                                name="pswd" required>
+                            <div class="valid-feedback">Valid.</div>
+                            <div class="invalid-feedback">Please fill out this field.</div>
+                        </div>
+                        <div class="form-group">
+                            <label for="pwd" style="font-family: serif">Enter the Password:</label>
+                            <input type="password" class="form-control" id="pwd" placeholder="Enter the password"
+                                name="pswd" required>
+                            <div class="valid-feedback">Valid.</div>
+                            <div class="invalid-feedback">Please fill out this field.</div>
+                        </div>
+                        <div class="form-group">
+                            <label for="email" style="font-family: serif">Email:</label>
+                            <input type="email" class="form-control" id="email" placeholder="Enter email" name="email"
+                                required>
+                            <div class="valid-feedback">Valid.</div>
+                            <div class="invalid-feedback">Please fill out this field.</div>
+                        </div>
+                        <button type="submit" class="btn btn-primary" style="background-color:#00a99d;">Create</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- sign in -->
+    <script>
+        // Disable form submissions if there are invalid fields
+        (function () {
+            'use strict';
+            window.addEventListener('load', function () {
+                // Get the forms we want to add validation styles to
+                var forms = document.getElementsByClassName('needs-validation');
+                // Loop over them and prevent submission
+                var validation = Array.prototype.filter.call(forms, function (form) {
+                    form.addEventListener('submit', function (event) {
+                        if (form.checkValidity() === false) {
+                            event.preventDefault();
+                            event.stopPropagation();
+                        }
+                        form.classList.add('was-validated');
+                    }, false);
+                });
+            }, false);
+        })();
+    </script>
+    <!-- sign in -->
+    <!-- boostrap touchSpin -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-touchspin/4.2.5/jquery.bootstrap-touchspin.min.js">
+    </script>
+    <!-- boostrap touchSpin -->
+    <!-- font Awesome -->
+    <script src="https://kit.fontawesome.com/1db0732271.js"></script>
+    <!-- js -->
+    <script src="./js/main.js"></script>
+    <!-- slick slide -->
+    <script src="./slick-1.8.1/slick/slick.min.js"></script>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js">
+    </script>
+</body>
+
+</html>
